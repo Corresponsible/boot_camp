@@ -1,0 +1,32 @@
+[
+    {
+        "Author_name": "Dante",
+        "Rating": 10,
+        "Note": "The one with 'Divine Comedy', if you're into hell (or in hell) - this is definitely your choice."
+    },
+    {
+        "Author_name": "J. D. Salinger",
+        "Rating": 3,
+        "Note": "Most read by killers, maniacs, and 14-year-olds. Best place to read at - rye field."
+    },
+    {
+        "Author_name": "Chuck Palahniuk",
+        "Rating": 8,
+        "Note": "Do you know anything about soap? Do you know anything about explosives? If both answers are 'yes', you're probably Chuck Palahniuk. Fun fact: Chuck  has actually got Ukrainian roots."
+    },
+    {
+        "Author_name": "Philip K. Dick",
+        "Rating": 9,
+        "Note": "An american writer with a funny surname. People really love making movies and series based on his tales."
+    },
+    {
+        "Author_name": "Taras Schevchenko",
+        "Rating": 10,
+        "Note": "The one Ukrainian writer foreigners actually know of. Some think he's a football player though. He's not."
+    },
+    {
+        "Author_name": "Homer",
+        "Rating": 5,
+        "Note": "This guy might have never even existed. But he's still more popular than you are."
+    }
+]
