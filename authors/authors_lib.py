@@ -23,17 +23,17 @@ def rates():
         if rating_query == "l":
             min_rating = min(item["Rating"] for item in data)
             min_authros = []
-            for k,v in enumerate(data):
-                if min_rating == v["Rating"]:
-                    min_authros.append(v["Author_name"])
+            for i in data:
+                if min_rating == i["Rating"]:
+                    min_authros.append(i["Author_name"])
             print(f"\nHere is the list of the lowest rated authors, with rating {min_rating}: {', '.join(min_authros)}")
 
         if rating_query == "h":
             max_rating = max(item["Rating"] for item in data)
             max_authros = []
-            for k,v in enumerate(data):
-                if max_rating == v["Rating"]:
-                    max_authros.append(v["Author_name"])
+            for i in data:
+                if max_rating == i["Rating"]:
+                    max_authros.append(i["Author_name"])
             print(f"\nHere is the list of the highest rated authors, with rating {max_rating}: {', '.join(max_authros)}")
 
         if rating_query == "avg":
